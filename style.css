@@ -8,18 +8,21 @@ body {
 
 
 .main_1 {
-     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url("images/main_1_img.jpeg");
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("images/main_1_img.jpeg");
     width: 100%;
     height: 100vh;
     overflow: hidden;
     text-decoration: none;
     background-size:cover ;
-     background-repeat: no-repeat ;
+     background-repeat: no-repeat;
      display: flex;
     align-items: center;
     justify-items: center;
     
     
+}
+.main_1 h1 {
+     padding-left: 15px;
 }
 
 h1 {
@@ -45,7 +48,38 @@ h1 {
 
 
 .main_2 {
-     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url("images/main_2_img.jpeg");
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("images/main_2_img.jpeg");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-decoration: none;
+    background-size:cover ;
+     background-repeat: no-repeat ;
+     display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+.main_2 h1 {
+     padding-left: 15px;
+}
+
+.main2_para {
+     font-size: 30px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+     height: 100%;
+
+}
+
+.main_3 {
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("images/main_3_img.jpeg");
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -59,14 +93,11 @@ h1 {
     
 }
 
-h1 {
-     font-size: 60px;
-     color: white;
-     
-     text-align: center;
+.main_3 h1 {
+     padding-left: 15px;
 }
 
-.main2_para {
+.main3_para {
      font-size: 30px;
      color: white;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
