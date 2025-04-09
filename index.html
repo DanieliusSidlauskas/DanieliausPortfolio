@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-   <div class ="main_1">
-    <h1>VX_MEDIA'S PHOTOGRAPHY PORTFOLIO</h1>
-    <div class="main1_para">
-        <p>SVEIKI! ESU DANIELIUS, 14 METŲ AMŽIAUS FOTOGRAFAS IR „VX_MEDIA“ PREKĖS ŽENKLO KŪRĖJAS. SPECIALIZUOJOSI DRIFTO FOTOGRAFIJOJE IR GAMTOS STEBUKLŲ FIKSAVIME, SIEKIANT UŽFIKSUOTI TIEK JAUDINANČIUS, TIEK RAMIAI GRAŽIUS MOMENTUS. MANO DARBAI – TAI AISTRA, GREITIS IR GAMTOS GROŽIS, SUJUNGTI Į NUOTRAUKAS, KURIOS PASAKOJA ISTORIJAS.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="images/MAIN_LOGO.png"
+        alt="Open Page"
+        class="image-btn"
+        onclick="openPage()"
+      />
     </div>
-   </div>
-   <div class ="main_2">
-    <h1>MANO DARYTI DARBAI</h1>
-    <div class="main2_para">
-        <p>ESU FOTOGRAFAVES DRIFTO VARŽYBAS VISOJE LIETUVOJE – NUO NEMUNO ŽIEDO IKI DRUSKININKŲ IR KITŲ RENGINIŲ. SVAO DARBUOSE SIEKIU PERTEIKTI GREITĮ, EMOCIJAS IR DINAMIKĄ, KURIOS BŪDINGOS ŠIAM SPORTUI.ESU DIRBĘS IR NEMUNO ŽIEDO SERKYLOJE, KUR UŽFIKSAVAU UNIKALIAS AKIMIRKAS. KIEKVIENAS MANO KADRAS PASAKOJA ISTORIJĄ, KURIĄ STENGIUOSI PERTEIKTI PER OBJEKTYVĄ.</p>
-    </div>
-   </div>
-   <div class ="main_3">
-    <h1>ATEINANČIO SEZONO PLANAI</h1>
-    <div class="main3_para">
-        <p>ATEINAMČIAM SEZONUI YRA DAUG PLANU. DIDŽIAUSIAS MANO FOKUSAS BUS LDČ PRO LYGOS ETAPAI IR DRIFT ARENA DRUSKININKAI VISI ETAPAI. DRIFT ARENA DRUSKININKUOSE JAU ATSTOVAUJU KAIP MEDIA PRESS'AS NUO 11.30.24 IR TIKUOSI LIKSIU TARP MEDIA PRESS TOLIAU. JAU YRA NE VIENAS TEKEJAS NAUDOJES MANO DARYTAS PHOTO KAIP DRIFTAS.EU IR KITI INSTAGRAM PUSLAPIU. IKI 2025 METŲ GALO BANDYSIU PASIEKTI BENT 500 SEKEJU PER VISAS PLATFORMAS KAIP YOUTUBE, TIKTOK IR INSTAGRAM. TAIP PAT NUMATAU SUDALYVAUTI BENT 10 DRIFTO RENGINIUOSE, O KAS TOLIAU TIK BUS MATYTI.</p>
-    </div>
-    
-   </div>
 
-    
-</body>
+    <div class="hidden-page" id="hiddenPage">
+      <div class="back-arrow" onclick="closePage()">⬅</div>
+
+      <div class="section" id="about">
+        <h1>ABOUT ME</h1>
+
+        <div class="FIRST_PARA">
+          <p>
+            Hey there! I'm Danielius or better know as VX_MEDIA, a passionate photographer and digital media creator with a love for the raw energy of drifting. Through my lens, I capture the intensity, motion, and emotion of every drift, turning fleeting moments into lasting memories.
+            From the roar of engines to the perfect angle of a slide, my work blends technical precision with artistic storytelling. Whether it’s the adrenaline of the track or the beauty of automotive culture, my goal is to bring each moment to life in a way that resonates with fellow enthusiasts.
+            Take a look around, and enjoy the ride!
+          </p>
+        </div>
+      </div>
+
+      <div class="section" id="photography">
+        <h1>PHOTOGRAPHY</h1>
+
+        <div class="SECOND_PARA">
+          <p>
+            I started my photography journey in April 2024, drawn to the fast-paced world of motorsports and the thrill of capturing raw, unscripted moments. Since then, my lens has been focused on the art of drifting—freezing the perfect slide, the tire smoke, and the pure adrenaline that makes this sport so electrifying.
+            Now, I’m proud to be part of Spinout Drift as a media creator, capturing the team’s journey both on and off the track. My goal is to showcase the passion, precision, and chaos of drifting in a way that immerses viewers into the heart of the action.
+            From high-speed cornering to behind-the-scenes moments, I strive to turn each frame into a story. Now here is some of my past work!
+          </p>
+        </div>
+
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="images/PAST_WORK/PAST_WORK_IMG_1.jpeg" alt="">
+            <img id="slide-2" src="images/PAST_WORK/PAST_WORK_IMG_2.jpeg" alt="">
+            <img id="slide-3" src="images/PAST_WORK/PAST_WORK_IMG_3.jpeg" alt="">
+            <img id="slide-4" src="images/PAST_WORK/PAST_WORK_IMG_4.jpg" alt="">
+            <img id="slide-5" src="images/PAST_WORK/PAST_WORK_IMG_5.jpg" alt="">
+            <img id="slide-6" src="images/PAST_WORK/PAST_WORK_IMG_6.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="section" id="drift">
+        <h1>DRIFT</h1>
+
+        <div class="THIRD_PARA">
+          <p>
+            Here you will get all the updates about my drift career! On January 17th I bought a BMW E36 Compact. It had its fair share of problems but we had them all sorted and was ready to go! On march 29th I
+            had participated in my first ever drift practice and in my eyes, it went pretty smooth considering it was my first time behind the wheel of a drift car! Here is the vlog!
+          </p>
+        </div>
+
+        <iframe width="800" height="800" src="https://www.youtube.com/embed/EqCgBYEg3tg" title="FIRST TIME DRIFTING IRL (MINI VLOG)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
